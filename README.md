@@ -1,5 +1,5 @@
 # aws-secret-manager
-![Tests](https://github.com/anarwal/aws-secret-manager/workflows/.github/workflows/ci.yml/badge.svg)
+![](https://github.com/anarwal/aws-secret-manager/workflows/Test%20Status/badge.svg)
 
 Simple library to talk to AWS secrets manager using AWS SDK. It provides an interface to talk to AWS CRUD APIs. 
 You can choose either to use:
