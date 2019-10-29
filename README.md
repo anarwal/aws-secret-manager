@@ -1,7 +1,7 @@
 # aws-secret-manager
 ![Tests](https://github.com/anarwal/aws-secret-manager/workflows/.github/workflows/ci.yml/badge.svg)
 
-Simple library to talk to AWS secrets manager using AWS SDK. It provides an interface to talk to AWS CRUD APIs. 
+Simple library to talk to AWS secrets manager using AWS SDK. It provides an interface to communicate with Secrets Manger using AWS CRUD APIs.
 You can choose either to use:
  1. AWS Secrets Manager (Production usage)
  2. File System (Mock for local testing)
