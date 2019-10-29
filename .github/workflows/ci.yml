@@ -27,4 +27,4 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: mvn -s .m2/settings.xml --batch-mode -P test-integration test
+      run: mvn -Dmaven.repo.local=.m2/repository -P test-integration test
