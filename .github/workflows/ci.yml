@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   unit_tests:
-    name: Test
+    name: Unit Test
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
       run: mvn -Dmaven.repo.local=.m2/repository install
 
   integration_tests:
-    name: Unit Tests
+    name: Integration Test
     runs-on: ubuntu-latest
 
     steps:
